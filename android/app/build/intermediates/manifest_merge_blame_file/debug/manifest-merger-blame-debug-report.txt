@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jupviec"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\cd6ada74bbb35c991f2c02e246b774ea\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\cd6ada74bbb35c991f2c02e246b774ea\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:24:5-79
+14-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+18
+19    <application
+19-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:6:5-25:19
+20        android:name="com.jupviec.MainApplication"
+20-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:7:7-38
+21        android:allowBackup="false"
+21-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\5644a94d9f003a0b90383b8c36ca5e5e\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:9:7-41
+25        android:label="@string/app_name"
+25-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:8:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:10:7-52
+27        android:theme="@style/AppTheme"
+27-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:12:7-38
+28        android:usesCleartextTraffic="true" >
+28-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\debug\AndroidManifest.xml:7:18-53
+29        <activity
+29-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:13:7-23:18
+30            android:name="com.jupviec.MainActivity"
+30-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:14:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+31-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:16:9-86
+32            android:label="@string/app_name"
+32-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:15:9-41
+33            android:launchMode="singleTask"
+33-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:17:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:18:9-51
+35            <intent-filter>
+35-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:19:9-22:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:20:13-65
+36-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:20:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:21:13-73
+38-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:21:23-70
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+41-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:24:7-84
+41-->E:\BaiTap\DoAnTotNghiep\JupViec\android\app\src\main\AndroidManifest.xml:24:17-81
+42
+43        <receiver
+43-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:29:9-33:20
+44            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+44-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:30:13-85
+45            android:enabled="true"
+45-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:31:13-35
+46            android:exported="false" >
+46-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:32:13-37
+47        </receiver>
+48
+49        <service
+49-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:35:9-38:40
+50            android:name="com.google.android.gms.measurement.AppMeasurementService"
+50-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:36:13-84
+51            android:enabled="true"
+51-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:37:13-35
+52            android:exported="false" />
+52-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:38:13-37
+53        <service
+53-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:39:9-43:72
+54            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+54-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:40:13-87
+55            android:enabled="true"
+55-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:41:13-35
+56            android:exported="false"
+56-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:42:13-37
+57            android:permission="android.permission.BIND_JOB_SERVICE" />
+57-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\c835347705c69f8598202e27770fc9d5\play-services-measurement-17.4.1\AndroidManifest.xml:43:13-69
+58        <service
+58-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\17a7ece950741a755abfeed58077a9c1\play-services-measurement-api-17.4.1\AndroidManifest.xml:27:9-33:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\17a7ece950741a755abfeed58077a9c1\play-services-measurement-api-17.4.1\AndroidManifest.xml:28:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\4eaf71b62c9e586f359c5819654b44d6\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\17a7ece950741a755abfeed58077a9c1\play-services-measurement-api-17.4.1\AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\17a7ece950741a755abfeed58077a9c1\play-services-measurement-api-17.4.1\AndroidManifest.xml:30:13-32:85
+63                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+63-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\17a7ece950741a755abfeed58077a9c1\play-services-measurement-api-17.4.1\AndroidManifest.xml:31:17-139
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\17a7ece950741a755abfeed58077a9c1\play-services-measurement-api-17.4.1\AndroidManifest.xml:32:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+66                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+66-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\d4a520091a1cf3147677db24e77b95ad\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+69                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+69-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\d4a520091a1cf3147677db24e77b95ad\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\d4a520091a1cf3147677db24e77b95ad\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+71        </service>
+72
+73        <receiver
+73-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+74            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+74-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+75            android:exported="true"
+75-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+76            android:permission="com.google.android.c2dm.permission.SEND" >
+76-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+77            <intent-filter>
+77-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+78                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+78-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+78-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\ed783ed6254827bc46be3f89c881b86c\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+79            </intent-filter>
+80        </receiver>
+81
+82        <provider
+82-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\4eaf71b62c9e586f359c5819654b44d6\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\4eaf71b62c9e586f359c5819654b44d6\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+84            android:authorities="com.jupviec.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\4eaf71b62c9e586f359c5819654b44d6\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+85            android:exported="false"
+85-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\4eaf71b62c9e586f359c5819654b44d6\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+86            android:initOrder="100" />
+86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\4eaf71b62c9e586f359c5819654b44d6\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\45bb801ab1148052b41001ba0c7a905f\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\45bb801ab1148052b41001ba0c7a905f\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\45bb801ab1148052b41001ba0c7a905f\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\45bb801ab1148052b41001ba0c7a905f\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\5a5d5798a2528cb360c787f4f57ca7c6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\5a5d5798a2528cb360c787f4f57ca7c6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\AspireE5\.gradle\caches\transforms-2\files-2.1\5a5d5798a2528cb360c787f4f57ca7c6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+96    </application>
+97
+98</manifest>
